@@ -10,11 +10,11 @@ const experiences = [
     title: "B.Tech CSE - Gaming Technology",
     organization: "SRM University, Ramapuram",
     location: "Chennai, India",
-    period: "2022 - 2026",
+    period: "2023 - 2027",
     description:
       "Specializing in Gaming Technology with focus on interactive systems, game development, and emerging technologies.",
     highlights: [
-      "CGPA: 8.5/10",
+      "CGPA: 9.0/10",
       "Gaming Technology Specialization",
       "Active in tech communities",
       "Research in AI applications",
@@ -31,7 +31,7 @@ const experiences = [
     description:
       "Developing cutting-edge AI solutions using Ollama, fine-tuning LLMs, and creating intelligent chatbot systems.",
     highlights: [
-      "50+ AI models trained",
+      "5+ AI models trained",
       "Custom LLM implementations",
       "Chatbot frameworks developed",
       "Open-source contributions",

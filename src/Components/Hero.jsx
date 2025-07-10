@@ -49,7 +49,7 @@ export default function Hero() {
               <div className="text-green-400">
                 <span className="text-gray-400">$</span> whoami
               </div>
-              <div className="text-white mt-2">Your Name</div>
+              <div className="text-white mt-2">Aamir Abdullah Khan</div>
               <div className="text-green-400 mt-4">
                 <span className="text-gray-400">$</span> cat role.txt
               </div>
@@ -160,7 +160,7 @@ export default function Hero() {
                 {/* Profile Image Container */}
                 <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-green-400/30 backdrop-blur-md bg-black/40">
                   <img
-                    src="/placeholder.svg?height=320&width=320"
+                    src="https://imgur.com/jQrK2Nf.jpg"
                     alt="Your Profile"
                     className="w-full h-full object-cover"
                   />
