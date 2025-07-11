@@ -56,7 +56,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           <motion.div whileHover={{ scale: 1.05 }} className="flex items-center space-x-2">
             <Terminal className="h-8 w-8 text-green-400" />
-            <span className="text-xl font-mono font-bold text-green-400">{"<AAMIR KHAN/>"}</span>
+            <span className="text-xl font-mono font-bold text-green-400">{"<PORTFOLIO/>"}</span>
           </motion.div>
 
           {/* Desktop Navigation */}

@@ -52,7 +52,7 @@ export default function LoadingScreen() {
           transition={{ duration: 1, repeat: Number.POSITIVE_INFINITY }}
           className="text-6xl font-mono font-bold text-green-400"
         >
-          {"<HACKER/>"}
+          {"<LOADING.../>"}
         </motion.div>
 
         <div className="w-80 h-2 bg-gray-800 rounded-full overflow-hidden">
