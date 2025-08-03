@@ -65,12 +65,12 @@ const projects = [
   },
   {
     id: 5,
-    title: "Secure Gaming Platform",
+    title: "Tiny Knight",
     category: "gaming",
     description:
-      "A multiplayer gaming platform with advanced security features, anti-cheat systems, and blockchain-based achievements.",
-    image: "/placeholder.svg?height=300&width=500",
-    technologies: ["Unity", "C#", "Node.js", "WebRTC", "Blockchain"],
+      "A simple game project with moving, jumping, attacking and coin collecting functionality.",
+    image: "https://live.staticflickr.com/65535/54647702315_09f339a710_b.jpg",
+    technologies: ["Godot", "C#", "Node.js", "WebRTC", "Blockchain"],
     features: ["Multiplayer support", "Anti-cheat system", "Blockchain rewards", "Real-time communication"],
     github: "#",
     demo: "#",

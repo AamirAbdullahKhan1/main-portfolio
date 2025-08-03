@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion"
 import { useState } from "react"
-import { Mail, Phone, MapPin, Github, Linkedin, Twitter, Send, Terminal, MessageSquare, Wifi } from "lucide-react"
+import { Mail, Phone, MapPin, Github, Linkedin, Twitter, Send, Terminal, MessageSquare, Wifi, Instagram } from "lucide-react"
 import SectionHeader from "./SectionHeader"
 
 export default function Contact() {
@@ -39,13 +39,13 @@ export default function Contact() {
     {
       icon: Mail,
       label: "Email",
-      value: "your.email@example.com",
+      value: "aamirak2004@gmail.com",
       href: "mailto:your.email@example.com",
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+91 12345 67890",
+      value: "+91 73977 11345",
       href: "tel:+911234567890",
     },
     {
@@ -60,19 +60,19 @@ export default function Contact() {
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com/yourusername",
+      href: "https://github.com/aamirabdullahkhan1",
       color: "hover:text-gray-300",
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "https://linkedin.com/in/yourusername",
+      href: "https://www.linkedin.com/in/aamir-abdullah-khan",
       color: "hover:text-blue-400",
     },
     {
-      icon: Twitter,
-      label: "Twitter",
-      href: "https://twitter.com/yourusername",
+      icon: Instagram,
+      label: "Instagram",
+      href: "https://www.instagram.com/_.aamir._.khan._/",
       color: "hover:text-cyan-400",
     },
     {
@@ -315,12 +315,12 @@ export default function Contact() {
           className="mt-20 text-center"
         >
           <div className="backdrop-blur-md bg-black/40 border border-green-400/30 rounded-lg p-8">
-            <p className="text-gray-300 mb-4">"The best way to predict the future is to invent it." - Alan Kay</p>
+            <p className="text-gray-300 mb-4">"Wisdom is silence. Arrogance is loud" - Myself</p>
             <div className="flex items-center justify-center space-x-2 text-green-400 font-mono">
               <Terminal className="h-5 w-5" />
               <span>Made with ❤️ and lots of ☕</span>
             </div>
-            <div className="mt-4 text-gray-400 text-sm">© 2024 Your Name. All rights reserved.</div>
+            <div className="mt-4 text-gray-400 text-sm">© 2025 Aamir Abdullah Khan. All rights reserved.</div>
           </div>
         </motion.div>
       </div>

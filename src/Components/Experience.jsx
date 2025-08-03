@@ -76,15 +76,14 @@ const experiences = [
 
 const certifications = [
   "Ethical Hacking Essentials",
+  "Data Science Basics",
   "Network Security Fundamentals",
-  "AI/ML with Python",
-  "React Advanced Patterns",
-  "Node.js Backend Development",
-  "Cybersecurity Risk Management",
-  "Penetration Testing",
-  "Cloud Security",
-  "Game Development with Unity",
-  "Blockchain Fundamentals",
+  "Deep Learning Basics",
+  "Full Stack Development",
+  "Natural Language Processing",
+  "Identity Accesss Management (IAM)",
+  "Cyber Job Simulation",
+  "Computer Vision 101",
 ]
 
 export default function Experience() {
