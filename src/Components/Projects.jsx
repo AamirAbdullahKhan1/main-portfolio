@@ -128,6 +128,32 @@ const projects = [
     demo: "#",
     status: "in-progress",
   },
+  {
+    id: 10,
+    title: "Real Time Chat Application",
+    category: "fullstack",
+    description:
+      "An interactive platform for managing a real time chat application with features for message sending, receiving, and notification integration.",
+    image: "/placeholder.svg?height=300&width=500",
+    technologies: ["React.js", "JavaScript", "Socket.io", "Render", "Tailwind CSS"],
+    features: ["Message sending", "Message receiving", "Notification integration", "Customer management"],
+    github: "#",
+    demo: "#",
+    status: "completed",
+  },
+  {
+    id: 11,
+    title: "Movie Details Website - XenStream",
+    category: "fullstack",
+    description:
+      "A website for looking into upcoming and trending movies with their details and reviews using the TMDB API.",
+    image: "/placeholder.svg?height=300&width=500",
+    technologies: ["React.js", "JavaScript", "TMDB API", "Render", "Tailwind CSS"],
+    features: ["Movie details", "Movie reviews", "Movie ratings", "Movie recommendations"],
+    github: "#",
+    demo: "#",
+    status: "completed",
+  },
 ]
 
 const categories = [
