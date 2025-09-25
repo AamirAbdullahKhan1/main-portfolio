@@ -61,7 +61,7 @@ const experiences = [
     title: "Full Stack Development",
     organization: "Freelance & Projects",
     location: "Remote",
-    period: "2022 - Present",
+    period: "2023 - Present",
     description: "Building end-to-end applications with modern frameworks, focusing on performance and security.",
     highlights: [
       "25+ projects completed",

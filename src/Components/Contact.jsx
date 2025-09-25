@@ -75,12 +75,6 @@ export default function Contact() {
       href: "https://www.instagram.com/_.aamir._.khan._/",
       color: "hover:text-cyan-400",
     },
-    {
-      icon: MessageSquare,
-      label: "Discord",
-      href: "#",
-      color: "hover:text-purple-400",
-    },
   ]
 
   return (
