@@ -96,7 +96,7 @@ export default function Hero() {
                 transition={{ delay: 0.9, duration: 0.8 }}
                 className="flex flex-wrap gap-3"
               >
-                {["AI/ML", "Cybersecurity", "Full Stack", "Ollama", "React", "Node.js"].map((skill, index) => (
+                {["AI/ML", "Cybersecurity", "Full Stack", "Ollama", "React", "React Native"].map((skill, index) => (
                   <motion.span
                     key={skill}
                     initial={{ opacity: 0, scale: 0.8 }}
@@ -160,7 +160,7 @@ export default function Hero() {
                 {/* Profile Image Container */}
                 <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-green-400/30 backdrop-blur-md bg-black/40">
                   <img
-                    src="https://imgur.com/jQrK2Nf.jpg"
+                    src="https://live.staticflickr.com/65535/54644987566_28480da066_z.jpg"
                     alt="Your Profile"
                     className="w-full h-full object-cover"
                   />
