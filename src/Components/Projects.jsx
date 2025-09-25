@@ -89,6 +89,45 @@ const projects = [
     demo: "#",
     status: "completed",
   },
+  {
+    id: 7,
+    title: "School Management System",
+    category: "fullstack",
+    description:
+      "An interactive platform for managing a school's operations with features for student, teacher, and course management along with attendance tracking and report generation.",
+    image: "/placeholder.svg?height=300&width=500",
+    technologies: ["Next.js", "TypeScript", "Supabase", "Docker", "Tailwind CSS"],
+    features: ["Student management", "Teacher management", "Course management", "Report generation", "Attendacne Tracking"],
+    github: "#",
+    demo: "#",
+    status: "in-progress",
+  },
+  {
+    id: 8,
+    title: "E-Commernce Product Catalog",
+    category: "fullstack",
+    description:
+      "An interactive platform for managing a product catalog with features for product management, inventory tracking, and order management.",
+    image: "/placeholder.svg?height=300&width=500",
+    technologies: ["React.js", "JavaScript", "Postgres", "Render", "Tailwind CSS"],
+    features: ["Product management", "Inventory tracking", "Order management", "Payment integration"],
+    github: "#",
+    demo: "#",
+    status: "in-progress",
+  },
+  {
+    id: 9,
+    title: "Venue Booking Platform",
+    category: "fullstack",
+    description:
+      "An interactive platform for managing a venue booking with features for venue management, booking management, and payment integration.",
+    image: "/placeholder.svg?height=300&width=500",
+    technologies: ["React.js", "JavaScript", "Neon.tech", "Render", "Tailwind CSS"],
+    features: ["Venue management", "Booking management", "Payment integration", "Customer management"],
+    github: "#",
+    demo: "#",
+    status: "in-progress",
+  },
 ]
 
 const categories = [
