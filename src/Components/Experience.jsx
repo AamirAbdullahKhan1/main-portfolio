@@ -31,7 +31,7 @@ const experiences = [
     description:
       "Developing cutting-edge AI solutions using Ollama, fine-tuning LLMs, and creating intelligent chatbot systems.",
     highlights: [
-      "5+ AI models trained",
+      "3+ AI models trained",
       "Custom LLM implementations",
       "Chatbot frameworks developed",
       "Open-source contributions",
@@ -48,8 +48,8 @@ const experiences = [
     description:
       "Comprehensive cybersecurity training covering ethical hacking, network security, and penetration testing.",
     highlights: [
-      "25+ certifications earned",
-      "Ethical hacking expertise",
+      "2+ certifications earned",
+      "Ethical hacking familiarity",
       "Network security protocols",
       "Vulnerability assessment",
     ],
@@ -64,7 +64,7 @@ const experiences = [
     period: "2022 - Present",
     description: "Building end-to-end applications with modern frameworks, focusing on performance and security.",
     highlights: [
-      "30+ projects completed",
+      "25+ projects completed",
       "Modern tech stack mastery",
       "Client satisfaction: 100%",
       "Performance optimization",
