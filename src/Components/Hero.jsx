@@ -118,9 +118,9 @@ export default function Hero() {
                 className="flex space-x-6"
               >
                 {[
-                  { icon: Github, href: "#", label: "GitHub" },
-                  { icon: Linkedin, href: "#", label: "LinkedIn" },
-                  { icon: Mail, href: "#contact", label: "Email" },
+                  { icon: Github, href: "https://github.com/AamirAbdullahKhan1", label: "GitHub" },
+                  { icon: Linkedin, href: "https://www.linkedin.com/in/aamir-abdullah-khan", label: "LinkedIn" },
+                  { icon: Mail, href: "aamirak2004@gmail.com", label: "Email" },
                   { icon: Terminal, href: "#", label: "Blog" },
                 ].map(({ icon: Icon, href, label }) => (
                   <motion.a
