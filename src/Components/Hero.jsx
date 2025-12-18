@@ -67,7 +67,7 @@ export default function Hero() {
           </motion.div>
 
           {/* Main Content */}
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="grid lg:grid-cols-2 gap-8 md:gap-12 items-center">
             {/* Left Column - Text Content */}
             <div className="space-y-8">
               <motion.h1
@@ -156,7 +156,7 @@ export default function Hero() {
               transition={{ delay: 0.6, duration: 0.8 }}
               className="relative"
             >
-              <div className="relative w-80 h-80 mx-auto">
+              <div className="relative w-40 h-40 sm:w-56 sm:h-56 md:w-72 md:h-72 lg:w-80 lg:h-80 mx-auto">
                 {/* Profile Image Container */}
                 <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-green-400/30 backdrop-blur-md bg-black/40">
                   <img

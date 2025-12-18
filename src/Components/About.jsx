@@ -6,9 +6,9 @@ import SectionHeader from "./SectionHeader"
 
 export default function About() {
   const stats = [
-    { label: "Years of Experience", value: "3+", icon: Code },
-    { label: "AI Models Trained", value: "5+", icon: Brain },
-    { label: "Security Projects", value: "3+", icon: Shield },
+    { label: "Years of Experience", value: "2+", icon: Code },
+    { label: "AI Models Trained", value: "2", icon: Brain },
+    { label: "Security Projects", value: "2", icon: Shield },
     { label: "Full Stack Projects", value: "8+", icon: Award },
     { label: "Certificates Earned", value: "10+", icon: Award },
   ]

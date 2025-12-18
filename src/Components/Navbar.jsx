@@ -40,7 +40,9 @@ export default function Navbar() {
   const scrollToSection = (href) => {
     const element = document.querySelector(href)
     if (element) {
-      element.scrollIntoView({ behavior: "smooth" })
+      const yOffset = 80
+      const y = element.getBoundingClientRect().top + window.pageYOffset - yOffset
+      window.scrollTo({ top: y, behavior: "smooth" })
     }
     setIsOpen(false)
   }
@@ -56,7 +58,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           <motion.div whileHover={{ scale: 1.05 }} className="flex items-center space-x-2">
             <Terminal className="h-8 w-8 text-green-400" />
-            <span className="text-xl font-mono font-bold text-green-400">{"<PORTFOLIO/>"}</span>
+            <span className="hidden sm:inline text-lg md:text-xl font-mono font-bold text-green-400">{"<PORTFOLIO.ME/>"}</span>
           </motion.div>
 
           {/* Desktop Navigation */}

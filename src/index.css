@@ -10,6 +10,16 @@
   body {
     font-family: "Inter", system-ui, -apple-system, sans-serif;
   }
+
+  section {
+    scroll-margin-top: 6rem;
+  }
+
+  @media (min-width: 768px) {
+    section {
+      scroll-margin-top: 7rem;
+    }
+  }
 }
 
 @layer utilities {
@@ -17,6 +27,7 @@
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
+    line-clamp: 3;
     overflow: hidden;
   }
 }

@@ -27,7 +27,7 @@ const skillCategories = [
       { name: "Ethical Hacking", level: 40, description: "Penetration testing and vulnerability assessment" },
       { name: "Network Security", level: 50, description: "Firewall configuration and monitoring" },
       { name: "Cryptography", level: 30, description: "Encryption algorithms and implementation" },
-      { name: "OWASP Top 10", level: 40, description: "Web application security best practices" },
+      { name: "Kali Linux", level: 40, description: "Configured and used Kali tools for scanning, enumeration, and exploitation." },
       { name: "Security Auditing", level: 70, description: "Code review and security analysis" },
       { name: "Incident Response", level: 50, description: "Security breach handling and recovery" },
     ],
@@ -42,7 +42,7 @@ const skillCategories = [
       { name: "TypeScript", level: 65, description: "Type-safe JavaScript development" },
       { name: "Python", level: 80, description: "Backend development and scripting" },
       { name: "PostgreSQL", level: 70, description: "Database design and optimization" },
-      { name: "Docker", level: 65, description: "Containerization and deployment" },
+      { name: "Docker", level: 45, description: "Containerization and deployment" },
     ],
   },
   {
@@ -52,7 +52,7 @@ const skillCategories = [
     skills: [
       { name: "React Native", level: 80, description: "Cross-platform mobile development" },
       { name: "Godot", level: 40, description: "Game engine development" },
-      { name: "Flutter", level: 45, description: "Mobile app development" },
+      
     ],
   },
 ]

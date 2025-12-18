@@ -224,7 +224,7 @@ export default function Projects() {
               className="backdrop-blur-md bg-black/40 border border-green-400/30 rounded-lg overflow-hidden hover:border-green-400/50 transition-all duration-300"
             >
               {/* Project Image */}
-              <div className="relative h-48 overflow-hidden">
+              <div className="relative h-40 sm:h-48 overflow-hidden">
                 <img
                   src={project.image || "/placeholder.svg"}
                   alt={project.title}
